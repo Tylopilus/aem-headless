@@ -1,0 +1,11 @@
+schema:
+  - 'http://localhost:4502/content/_cq_graphql/actoolminimal/endpoint.json':
+      headers: { Authorization: 'Basic YWRtaW46YWRtaW4=' }
+documents: ./src/queries/**/*.ts
+generates:
+  ./src/utils/types.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+    config:
+      maybeValue: T

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/actoolminimal" mode="merge"/>
+    <filter root="/content/actoolminimal" mode="merge"/>
+    <filter root="/content/dam/actoolminimal" mode="merge"/>
+    <filter root="/content/experience-fragments/actoolminimal" mode="merge"/>
+    <filter root="/content/cq:graphql/actoolminimal" mode="merge"/>
+</workspaceFilter>
