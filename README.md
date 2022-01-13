@@ -8,4 +8,4 @@
 mvn clean install -PautoInstallSinglePackage
 ```
 
-2. Navigate into ./next-headless-app and follow it's [README.md](./next-headless-app/readme.md)
+2. Navigate into ./next-headless-app and follow it's [README.md](./next-headless-app/README.md)
