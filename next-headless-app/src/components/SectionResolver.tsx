@@ -1,5 +1,5 @@
 import { AllFragmentModels } from '../utils/types';
-import { HeroModel } from './HeroModel';
+import { HeroComponent } from './Hero';
 import { TextModel } from './TextModel';
 
 export const SectionResolver = ({
@@ -9,7 +9,7 @@ export const SectionResolver = ({
 }) => {
   switch (section.__typename) {
     case 'HeroModel':
-      return <HeroModel section={section} />;
+      return <HeroComponent section={section} />;
     case 'TextModel':
       return <TextModel section={section} />;
     case 'CtaModel':

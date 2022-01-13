@@ -24,6 +24,7 @@ export const landingPageQuery = gql`
                 height
               }
             }
+            externalimage
           }
           ... on CtaModel {
             _path
