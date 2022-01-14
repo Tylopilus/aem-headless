@@ -10,13 +10,13 @@ export type Scalars = {
   Boolean: boolean;
   Int: number;
   Float: number;
-  /** com.adobe.aem.graphql.sites.adapters.sling.ScalarComponentWrapper@400153df */
+  /** com.adobe.aem.graphql.sites.adapters.sling.ScalarComponentWrapper@4e2b2294 */
   Calendar: any;
-  /** com.adobe.aem.graphql.sites.adapters.sling.ScalarComponentWrapper@3cc19a15 */
+  /** com.adobe.aem.graphql.sites.adapters.sling.ScalarComponentWrapper@2b766946 */
   Date: any;
-  /** com.adobe.aem.graphql.sites.adapters.sling.ScalarComponentWrapper@6b2c4888 */
+  /** com.adobe.aem.graphql.sites.adapters.sling.ScalarComponentWrapper@86ef0e5 */
   Json: any;
-  /** com.adobe.aem.graphql.sites.adapters.sling.ScalarComponentWrapper@b3c2185 */
+  /** com.adobe.aem.graphql.sites.adapters.sling.ScalarComponentWrapper@7224c6a7 */
   Time: any;
 };
 
@@ -251,6 +251,8 @@ export type HeroModel = {
   _path?: Maybe<Scalars['ID']>;
   _variation?: Maybe<Scalars['String']>;
   _variations?: Maybe<Array<Maybe<Scalars['String']>>>;
+  ctatext?: Maybe<Scalars['String']>;
+  ctaurl?: Maybe<Scalars['String']>;
   description?: Maybe<MultiFormatString>;
   externalimage?: Maybe<Scalars['String']>;
   image?: Maybe<Reference>;
@@ -268,6 +270,8 @@ export type HeroModelFilter = {
   _path?: InputMaybe<IdFilter>;
   _variation?: InputMaybe<StringFilter>;
   _variations?: InputMaybe<StringArrayFilter>;
+  ctatext?: InputMaybe<StringFilter>;
+  ctaurl?: InputMaybe<StringFilter>;
   description?: InputMaybe<MultiFormatStringFilter>;
   externalimage?: InputMaybe<StringFilter>;
   subtitle?: InputMaybe<StringFilter>;
@@ -579,6 +583,7 @@ export type TextModel = {
   _variation?: Maybe<Scalars['String']>;
   _variations?: Maybe<Array<Maybe<Scalars['String']>>>;
   content?: Maybe<MultiFormatString>;
+  id?: Maybe<Scalars['String']>;
   title?: Maybe<Scalars['String']>;
 };
 
@@ -593,6 +598,7 @@ export type TextModelFilter = {
   _variation?: InputMaybe<StringFilter>;
   _variations?: InputMaybe<StringArrayFilter>;
   content?: InputMaybe<MultiFormatStringFilter>;
+  id?: InputMaybe<StringFilter>;
   title?: InputMaybe<StringFilter>;
 };
 
@@ -656,4 +662,4 @@ export type TypedMetaData = {
 export type Unnamed_1_QueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export type Unnamed_1_Query = { __typename?: 'QueryType', landingpageList: { __typename?: 'LandingpageModelResults', items: Array<{ __typename?: 'LandingpageModel', title?: string, slug?: string, sections?: Array<{ __typename: 'CtaModel', _path?: string, callToAction?: string, url?: string } | { __typename: 'HeroModel', _path?: string, title?: string, subtitle?: string, externalimage?: string, description?: { __typename?: 'MultiFormatString', html?: string }, image?: { __typename: 'ArchiveRef' } | { __typename: 'CtaModel' } | { __typename: 'DocumentRef' } | { __typename: 'HeroModel' } | { __typename: 'ImageRef', _publishUrl?: string, _authorUrl?: string, width?: number, height?: number } | { __typename: 'LandingpageModel' } | { __typename: 'MultimediaRef' } | { __typename: 'PageRef' } | { __typename: 'TextModel' } } | { __typename: 'LandingpageModel' } | { __typename: 'TextModel', _path?: string, title?: string, content?: { __typename?: 'MultiFormatString', html?: string } }> }> } };
+export type Unnamed_1_Query = { __typename?: 'QueryType', landingpageList: { __typename?: 'LandingpageModelResults', items: Array<{ __typename?: 'LandingpageModel', title?: string, slug?: string, sections?: Array<{ __typename: 'CtaModel', _path?: string, callToAction?: string, url?: string } | { __typename: 'HeroModel', _path?: string, title?: string, subtitle?: string, externalimage?: string, description?: { __typename?: 'MultiFormatString', html?: string }, image?: { __typename: 'ArchiveRef' } | { __typename: 'CtaModel' } | { __typename: 'DocumentRef' } | { __typename: 'HeroModel' } | { __typename: 'ImageRef', _publishUrl?: string, _authorUrl?: string, width?: number, height?: number } | { __typename: 'LandingpageModel' } | { __typename: 'MultimediaRef' } | { __typename: 'PageRef' } | { __typename: 'TextModel' } } | { __typename: 'LandingpageModel' } | { __typename: 'TextModel', _path?: string, title?: string, id?: string, content?: { __typename?: 'MultiFormatString', html?: string } }> }> } };

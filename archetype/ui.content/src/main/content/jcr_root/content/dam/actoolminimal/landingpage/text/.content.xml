@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="8b1f62ef-65d1-45db-b412-d53bec07bd50">
     <jcr:content
-        jcr:lastModified="{Date}2022-01-13T11:13:15.373+01:00"
+        cq:name="text"
+        cq:parentPath="/content/dam/actoolminimal/landingpage"
+        jcr:lastModified="{Date}2022-01-14T17:20:15.517+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Text"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2022-01-13T11:13:15.373+01:00">
+        lastFragmentSave="{Date}2022-01-14T17:20:15.517+01:00">
         <data
             cq:model="/conf/actoolminimal/settings/dam/cfm/models/text"
             jcr:primaryType="nt:unstructured">
@@ -18,7 +21,9 @@
                 jcr:primaryType="nt:unstructured"
                 content="&lt;p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p>&#xa;"
                 content_x0040_ContentType="text/html"
-                content_x0040_LastModified="{Date}2022-01-13T11:13:15.366+01:00"
+                content_x0040_LastModified="{Date}2022-01-14T17:20:10.306+01:00"
+                id="first"
+                id_x0040_LastModified="{Date}2022-01-14T17:20:15.507+01:00"
                 title="Main Text"
                 title_x0040_LastModified="{Date}2022-01-13T11:13:15.365+01:00"/>
         </data>

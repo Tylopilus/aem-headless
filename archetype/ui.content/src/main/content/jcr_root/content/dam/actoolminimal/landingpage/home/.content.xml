@@ -7,20 +7,20 @@
     <jcr:content
         cq:name="home"
         cq:parentPath="/content/dam/actoolminimal/landingpage"
-        jcr:lastModified="{Date}2022-01-13T13:49:48.214+01:00"
+        jcr:lastModified="{Date}2022-01-14T18:37:45.427+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="home"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2022-01-13T13:49:48.214+01:00">
+        lastFragmentSave="{Date}2022-01-14T18:37:45.427+01:00">
         <data
             cq:model="/conf/actoolminimal/settings/dam/cfm/models/landingpage"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                sections="[/content/dam/actoolminimal/landingpage/hero,/content/dam/actoolminimal/landingpage/text]"
-                sections_x0040_LastModified="{Date}2022-01-13T13:49:48.204+01:00"
+                sections="[/content/dam/actoolminimal/landingpage/hero,/content/dam/actoolminimal/landingpage/text,/content/dam/actoolminimal/landingpage/teaser1,/content/dam/actoolminimal/landingpage/teaser2]"
+                sections_x0040_LastModified="{Date}2022-01-14T18:37:45.403+01:00"
                 slug="/"
                 slug_x0040_LastModified="{Date}2022-01-13T13:47:06.898+01:00"
                 title="Home"

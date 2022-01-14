@@ -25,6 +25,8 @@ export const landingPageQuery = gql`
               }
             }
             externalimage
+            ctatext
+            ctaurl
           }
           ... on CtaModel {
             _path
@@ -34,6 +36,7 @@ export const landingPageQuery = gql`
           ... on TextModel {
             _path
             title
+            id
             content {
               html
             }

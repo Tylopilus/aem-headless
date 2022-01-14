@@ -3,16 +3,18 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="3e396c5f-be30-4158-b480-61ee54ae8c81">
+    jcr:uuid="f142e091-afd7-4349-abd0-895823f07e4f">
     <jcr:content
-        cq:name="hero"
+        cq:lastModified="{Date}2022-01-14T18:38:51.990+01:00"
+        cq:lastModifiedBy="admin"
+        cq:name="teaser2"
         cq:parentPath="/content/dam/actoolminimal/landingpage"
-        jcr:lastModified="{Date}2022-01-14T17:23:26.313+01:00"
+        jcr:lastModified="{Date}2022-01-14T18:39:33.500+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
-        jcr:title="Hero"
+        jcr:title="teaser2"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2022-01-14T17:23:26.313+01:00">
+        lastFragmentSave="{Date}2022-01-14T18:39:33.500+01:00">
         <data
             cq:model="/conf/actoolminimal/settings/dam/cfm/models/hero"
             jcr:primaryType="nt:unstructured">
